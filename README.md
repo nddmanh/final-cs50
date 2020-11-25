@@ -1,10 +1,11 @@
 # Final Project Cs50
 by nddmanh
 * Ngôn ngữ sử dụng: html, css, javacscript
-* Mô tả
+* Mô tả:
 Đây là 1 trang web về shop bán giày online
 
 * Cách mở:
+
   -B1: tải file về và giải nén, sau đó mở file vừa tải bằng VScode
   -B2: chọn app.js -> open in Terminal
   -B3: gõ: npm start
