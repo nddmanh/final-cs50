@@ -40,5 +40,6 @@ by nddmanh
   - tạo ứng dụng đăng nhập cơ bản cho 1 trang web ( còn nhiều hạn chế như: sử dụng md5 để hash password tính bảo mật kém, các middleware chưa mạnh, validate cũng chưa thực sự phát huy tác dụng, sử dụng cookie nên tính an toàn không cao)
   - BackEnd cũng không khó như tưởng tượng ban đầu, chủ yếu sử dụng tư duy logic nhiều. BE hiểu đơn giản là xử lý dữ liệu phía server.
   - Chăm chỉ học và làm là sẽ hiểu.
+  - Khả năng tự học.
   
   Hà Nội 23h 25-11-2020
