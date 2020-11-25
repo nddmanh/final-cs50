@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/stylesheets/admin.css" rel="stylesheet">
+  <link href="/stylesheets/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>
+    <%= title %> 
+  </title>
+</head>
+<body class="text-center">
+
+  <% var errors = errors %> 
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column ">
+    <header class="masthead mb-auto" style="margin-top: 70px;">
+        <img class="mb-4" src="https://yinnepal.files.wordpress.com/2017/11/admin.png?w=640" alt="" width="72" height="72">
+        <h1 style="color: white;" >Xin chào Admin </h1>
+    </header>
+
+    <main role="main" class="inner cover bg" >
+      <form action="/admin/admin-upload" method="POST" enctype="multipart/form-data">
+        <h1 style="color: white; margin-bottom: 30px;" >Thông tin sản phẩm</h1>
+        
+            <label for="Name" class="sr-only">Tên Sản Phẩm</label>
+            <input type="text" name="name" id="Name"  class="form-control" placeholder="Tên Sản Phẩm" required autofocus >      
+        
+            <label for="brand" class="sr-only">Giá tiền </label>
+            <input type="text" name="brand" id="brand"  class="form-control" style="margin-top: 10px;" placeholder="Brand " required autofocus>         
+        
+            <label for="cost" class="sr-only">Giá tiền </label>
+            <input type="text" name="cost" id="cost"  class="form-control" style="margin-top: 10px;" placeholder="Giá tiền (vnđ) " required autofocus>         
+
+
+            <label for="detial" style="color:white; margin-top: 30px;" >Mô tả sản phẩm ( có thể để trống) </label>
+            <textarea rows="5"type="detail" name="detail" id="detail"  class="form-control" style="margin-top: 10px;" placeholder="Mô tả" required autofocus> </textarea>
+                
+            <label for="avatar" class="sr-only"> Ảnh </label>
+            <input type="file" name="avatar" id="avatar"  class="form-control" style="margin-top: 20px;" placeholder=" Ảnh " required autofocus>
+ 
+          <button class="btn btn-lg btn-primary btn-block" style="margin-top: 50px;" type="submit">Upload</button>
+
+        <% if ( errors ) {%> 
+          <div class="alert alert-danger" role="alert">
+            <%= errors %>
+          </div>
+        <% }%> 
+
+      </form>
+
+    </main>
+
+    <footer class="mastfoot mt-auto">
+        <div class="inner">
+        <p> <a href=""> admin Jerry</a>  , by <a href="https://www.facebook.com/nddmanh/">@nddmanh</a>.</p>
+        </div>
+    </footer>     
+</div>
+  <!-- required autofocus -->
+  
+</body>
+</html>
+  
+

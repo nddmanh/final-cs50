@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>
+        <%= title %> 
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/stylesheets/detail.css" rel="stylesheet">
+    
+</head> 
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+<body >
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto text-center" style="color: rgb(75, 75, 75);"> 
+          <div class="inner">
+            <h3 class="masthead-brand" >Shop giày Nai Kỳ Lạ
+            <% if(user) { %>
+                <p class="nav-link active"> xin chào <b><%= user.name %> </b> </p>
+              <% } %> 
+          </h3>
+          <hr>
+          
+          <h2>Thông tin sản phẩm</h2>
+          </div>
+      </header>
+      <main role="main">
+
+<div class="col-sm-12 col-md-12 col-lg-12">
+
+    <!-- product -->
+    <div class="product-content product-wrap clearfix product-deatil">
+        <div class="row">
+            <div class="col-md-5 col-sm-12 col-xs-12">
+                <div class="product-image">
+                    <div id="myCarousel-2" class="carousel slide">
+
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="../<%= prod.avatar %> " class="img-responsive" alt=""/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-md-offset-1 col-sm-12 col-xs-12">
+                <h2 class="name">
+                    <%= prod.name %> 
+                    <hr>
+                    <small>Brand by <b><%= prod.brand %></b> </small>
+
+                </h2>
+                <hr />
+                <h3 class="price-container">
+                    Giá tiền : <%= prod.cost %> đ 
+                </h3>
+
+                <hr />
+                <h4> </h4>
+                <p><%= prod.detail %> </p>
+                <hr />
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <a href="../product/loading" class="btn btn-success btn-lg">Thêm vào giỏ hàng </a>
+                    </div>
+                </div>
+                <hr>    
+                <small> <a href="../product/prod">Xem sản phẩm khác</a></small>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- end product -->
+</div>
+</main>
+
+<footer class="mastfoot mt-auto text-center">
+    <div class="inner">
+    <p> <a href=""> admin Jerry</a>  , by <a href="https://www.facebook.com/nddmanh/">@nddmanh</a>.</p>
+    </div>
+</footer>     
+</div>
+
+
+
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	
+</script>
+</body>
+</html>

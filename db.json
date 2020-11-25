@@ -1,0 +1,213 @@
+{
+  "users": [
+    {
+      "name": "Mạnh",
+      "phone": "0789307845",
+      "email": "nddmanh@ilec",
+      "password": "75f0817da202dfff6c1e8bf6ec5fad8f",
+      "id": "bqW4879OZ"
+    }
+  ],
+  "product": [
+    {
+      "name": "nike m2k tekno dark red blue",
+      "brand": "nike",
+      "cost": "500 000",
+      "detail": " ",
+      "id": "VH-RQtlVl",
+      "avatar": "uploads\\1606306758752-nike-m2k-tekno-dark-red-blue-nam-nu.jpg"
+    },
+    {
+      "name": "nike m2k cream blue orange",
+      "brand": "nike",
+      "cost": "550 000",
+      "detail": " ",
+      "id": "uJIYR-jWX",
+      "avatar": "uploads\\1606306807478-nike-m2k-cream-blue-orange-nam-nu.jpg"
+    },
+    {
+      "name": "nike m2k full white",
+      "brand": "nike",
+      "cost": "500 000",
+      "detail": " ",
+      "id": "0aBN_IrKR",
+      "avatar": "uploads\\1606306837187-nike-m2k-full-white-nam-nu.jpg"
+    },
+    {
+      "name": "nike m2k pink girl",
+      "brand": "nike",
+      "cost": "550 000",
+      "detail": " ",
+      "id": "hi9P5wzE4",
+      "avatar": "uploads\\1606306867052-nike-m2k-hong-nu.jpg"
+    },
+    {
+      "name": "nike m2k tekno cream white orange",
+      "brand": "nike",
+      "cost": "550 000",
+      "detail": " ",
+      "id": "fG6pWl53a",
+      "avatar": "uploads\\1606306908283-nike-m2k-tekno-cream-white-orange-nam.jpg"
+    },
+    {
+      "name": "nike m2k tekno dark grey cyan",
+      "brand": "nike",
+      "cost": "550 000",
+      "detail": " ",
+      "id": "IW2yWfxjC",
+      "avatar": "uploads\\1606306936618-nike-m2k-tekno-dark-grey-cyan-nam-nu.jpg"
+    },
+    {
+      "name": "nike m2k phantom",
+      "brand": "nike",
+      "cost": "500 000",
+      "detail": " ",
+      "id": "QCqDHwdjs",
+      "avatar": "uploads\\1606307016311-nike-m2k-trang-got-do-nam-nu.jpg"
+    },
+    {
+      "name": "nike pegasus turbo den hong nam nu",
+      "brand": "nike",
+      "cost": "600 000",
+      "detail": " ",
+      "id": "xYBnV6lKS",
+      "avatar": "uploads\\1606312284563-nike-pegasus-turbo-den-hong-nam-nu.jpg"
+    },
+    {
+      "name": "nike pegasus turbo green xanh la",
+      "brand": "nike",
+      "cost": "600 000",
+      "detail": " ",
+      "id": "DA1c6tT9z",
+      "avatar": "uploads\\1606312325099-nike-pegasus-turbo-green-xanh-la-nam-nu.jpg"
+    },
+    {
+      "name": "nike pegasus turbo trang do xanh",
+      "brand": "nike",
+      "cost": "650 000",
+      "detail": " ",
+      "id": "UYu_7NwMM",
+      "avatar": "uploads\\1606312438836-nike-pegasus-turbo-trang-do-xanh-nam-nu.jpg"
+    },
+    {
+      "name": "nike pegasus turbo xam bac den xanh",
+      "brand": "nike",
+      "cost": "600 000",
+      "detail": " ",
+      "id": "Pu-ZGmOC_",
+      "avatar": "uploads\\1606312577641-nike-pegasus-turbo-xam-bac-den-xanh-nam-nu.jpg"
+    },
+    {
+      "name": "nike pegasus turbo xanh ngoc",
+      "brand": "nike",
+      "cost": "600 000",
+      "detail": " ",
+      "id": "sieXD9AP-",
+      "avatar": "uploads\\1606312611022-nike-pegasus-turbo-xanh-ngoc-nam-nu.jpg"
+    },
+    {
+      "name": "adidas ultra boost 4.0 targaryen off white",
+      "brand": "adidas",
+      "cost": "380000",
+      "detail": " ",
+      "id": "Ax8IBfV1G",
+      "avatar": "uploads\\1606312986243-adidas-ultra-boost-4-0-game-of-thrones-house-targaryen-off-white-nam-nu-1-1.jpg"
+    },
+    {
+      "name": "adidas ultra boost 5.0 black multi color",
+      "brand": "adidas",
+      "cost": "380000",
+      "detail": " ",
+      "id": "g5YjXwaKd",
+      "avatar": "uploads\\1606313030735-adidas-ultra-boost-5-0-black-multi-color-rep-1-1-2019.jpg"
+    },
+    {
+      "name": "adidas ultra boost 2.0 consortium cloud white blue red",
+      "brand": "adidas",
+      "cost": "380000",
+      "detail": " ",
+      "id": "EUDqUcbTY",
+      "avatar": "uploads\\1606313071695-adidas-ultra-boost-20-consortium-cloud-white-blue-red.jpg"
+    },
+    {
+      "name": "adidas ultra boost 2.0 consotium all white reflective",
+      "brand": "adidas",
+      "cost": "380000",
+      "detail": " ",
+      "id": "-q6x5_BZ0",
+      "avatar": "uploads\\1606313106466-adidas-ultra-boost-20-consotium-all-white-reflective.jpg"
+    },
+    {
+      "name": "adidas ultra boost 2.0 consotium black white",
+      "brand": "adidas",
+      "cost": "380000",
+      "detail": " ",
+      "id": "NAzxAR9tj",
+      "avatar": "uploads\\1606313135679-adidas-ultra-boost-20-consotium-black-white-1-1.jpg"
+    },
+    {
+      "name": "adidas ultra boost 2.0 space race blue",
+      "brand": "adidas",
+      "cost": "350000",
+      "detail": " ",
+      "id": "LBmSR2jNb",
+      "avatar": "uploads\\1606313166442-adidas-ultra-boost-20-space-race-blue-1-1.jpg"
+    },
+    {
+      "name": "adidas ultra boost den trang 2019",
+      "brand": "adidas",
+      "cost": "380000",
+      "detail": " ",
+      "id": "afjX1F_5W",
+      "avatar": "uploads\\1606313200263-adidas-ultra-boost-den-trang-nam-nu-2019.jpg"
+    },
+    {
+      "name": "adidas yeezy 700 v2 static trang bac",
+      "brand": "adidas",
+      "cost": "380000",
+      "detail": " ",
+      "id": "YrGVQ0aZ3",
+      "avatar": "uploads\\1606313231853-adidas-yeezy-700-v2-static-trang-bac-nam-nu.jpg"
+    },
+    {
+      "name": "adidas yeezy 700 boost magnet",
+      "brand": "adidas",
+      "cost": "600 000",
+      "detail": " ",
+      "id": "NbUKN-NJ3",
+      "avatar": "uploads\\1606313258591-adidas-yeezy-700-boost-magnet-nam-nu-1-1.jpg"
+    },
+    {
+      "name": "adidas yeezy 350 v2 linen reflective",
+      "brand": "adidas",
+      "cost": "680 000",
+      "detail": " ",
+      "id": "7kg7SsU9w",
+      "avatar": "uploads\\1606313289352-adidas-yeezy-350-v2-linen-reflective-nam-nu-1-1.jpg"
+    },
+    {
+      "name": "adidas yeezy 350 v2 glow in the dark",
+      "brand": "adidas",
+      "cost": "700 000",
+      "detail": " ",
+      "id": "hfWXB14mD",
+      "avatar": "uploads\\1606313322564-adidas-yeezy-350-v2-glow-in-the-dark-da-quang-nam-nu-1-1.jpg"
+    },
+    {
+      "name": "adidas yeezy 350 v2 cloud white",
+      "brand": "adidas",
+      "cost": "800 000",
+      "detail": " ",
+      "id": "AvQwlSWmN",
+      "avatar": "uploads\\1606313364812-adidas-yeezy-350-v2-cloud-white-nam-nu-1-1.jpg"
+    },
+    {
+      "name": "adidas yeezy boost 350 v2 static black",
+      "brand": "adidas",
+      "cost": "550 000",
+      "detail": " ",
+      "id": "0Ntwmd9bT",
+      "avatar": "uploads\\1606313391935-adidas-yeezy-boost-350-v2-static-black-3m-reflective-nam-nu.jpg"
+    }
+  ]
+}

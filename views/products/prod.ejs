@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/stylesheets/product.css" rel="stylesheet">
+    <link href="/stylesheets/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>
+        <%= title %> 
+    </title>
+    
+</head>
+<body class="text-center">
+
+      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column ">
+        <header class="masthead mb-auto">
+            <div class="inner">
+              <h3 class="masthead-brand" style="color: white">Shop giày Nai Kỳ Lạ
+              <% if(user) { %>
+                  <p class="nav-link active"> xin chào <b><%= user.name %> </b> </p>
+                <% } %> 
+            </h3>
+            <nav class="nav nav-masthead justify-content-center">
+                <a class="nav-link " href="/">Trang chủ</a>
+                <a class="nav-link active" href="../product/prod">Sản phẩm</a>
+                <!-- <a class="nav-link" href="../auth/login">Đăng nhập</a> -->
+            </nav>
+            </div>
+        </header>
+        <main role="main">
+            <section class="jumbotron text-center">
+              <div class="container">
+                <h1>Tính năng mới</h1>
+                <hr>
+                <p class="lead text-muted">Để hỗ trợ khách hàng 1 cách nhanh chóng nhất</p>
+                <p class="lead text-muted">shop sẽ luôn phục vụ 24/7</p>
+                <p>
+                  <a href="../product/loading" class="btn btn-primary my-2">chat ngay với shop!</a>
+                </p>
+              </div>
+            </section>
+          
+            <div class="album py-5 bg-light">
+              <div class="container">
+                <div class="row">
+              
+            <% prod.forEach(function(products){ %>
+              
+                  <div class="col-md-4">
+                      <div class="card mb-4 shadow-sm">
+                        <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+                        <img src="../<%= products.avatar %> " class="bd-placeholder-img card-img-top" width="90%" height="225" alt="">
+                        <div class="card-body">
+                          <p class="card-text"><%= products.name %> </p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                              <a href="./<%= products.id %> ">
+                                <button type="button" class="btn btn-sm btn-outline-secondary"> Xem </button>
+                              </a>
+                              
+                            </div>
+                            <small class="text-muted"><%= products.cost %>đ</small>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+
+            <%  }) %> 
+                </div>
+              </div>
+            </div>
+            <a href="./prod?page=1"><button>1</button></a>
+            <a href="./prod?page=2"><button>2</button></a>
+            <a href="./prod?page=3"><button>3</button></a>
+            <a href="./prod?page=4"><button>4</button></a>
+            <a href="./prod?page=5"><button>5</button></a>
+            <a href="./prod?page=6"><button>6</button></a>
+            <a href="./prod?page=7"><button>7</button></a>
+            <a href="./prod?page=8"><button>8</button></a>
+            
+          </main>
+
+            
+          <footer class="mastfoot mt-auto">
+              <div class="inner">
+              <p> <a href=""> admin Jerry</a>  , by <a href="https://www.facebook.com/nddmanh/">@nddmanh</a>.</p>
+              </div>
+          </footer>     
+    </div>
+
+</body>
+</html>
