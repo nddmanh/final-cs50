@@ -6,10 +6,10 @@ by nddmanh
 
 * Cách mở:
 
-  -B1: tải file về và giải nén, sau đó mở file vừa tải bằng VScode
-  -B2: chọn app.js -> open in Terminal
-  -B3: gõ: npm start
-  -B4: dùng trình duyệt truy cập http://localhost:3000/
+  - tải file về và giải nén, sau đó mở file vừa tải bằng VScode
+  - chọn app.js -> open in Terminal
+  - gõ: npm start
+  - dùng trình duyệt truy cập http://localhost:3000/
   
 * Cách sử dụng:
   - Truy cập đăng nhập để đăng nhập
